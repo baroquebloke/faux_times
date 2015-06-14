@@ -54,6 +54,7 @@ html {
 body {
 	width: 980px;
 	margin: 0 auto;
+	padding: 0 20px 0 20px;
 }
 a {
 	text-decoration: none;
@@ -149,4 +150,38 @@ a {
 	background: #778899;
 }
 
-
+.title-head {
+	text-align: center;
+	font-size: 300%;
+	padding: 20px 0 10px 0;
+}
+menu {
+	width: 100%;
+	text-align: center;
+}
+.nav-top {
+	padding-bottom: 12px;
+}
+.nav-top li {
+	display: inline;
+	padding-left: 5px;
+}
+.nav-top li:after {
+	content: "|";
+	padding-left: 5px;
+}
+.nav-top li:last-child:after {
+	content: "";
+}
+.nav-bottom {
+	border-top: 2px solid black;
+	border-bottom: 1px solid gray;
+	padding: 5px;
+}
+.nav-bottom li {
+	display: inline;
+	margin-right: 10px;
+}
+.nav-bottom li:last-child:after {
+	margin-right: 0;
+}
