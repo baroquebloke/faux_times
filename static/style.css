@@ -153,14 +153,15 @@ a {
 .title-head {
 	text-align: center;
 	font-size: 300%;
-	padding: 20px 0 10px 0;
+	padding: 20px 0 15px 0;
 }
 menu {
 	width: 100%;
 	text-align: center;
 }
 .nav-top {
-	padding-bottom: 12px;
+	font-size: 0.7em;
+	padding-bottom: 13px;
 }
 .nav-top li {
 	display: inline;
@@ -174,9 +175,10 @@ menu {
 	content: "";
 }
 .nav-bottom {
+	font-size: 0.7em;
 	border-top: 2px solid black;
 	border-bottom: 1px solid gray;
-	padding: 5px;
+	padding: 6px 0 7px 0;
 }
 .nav-bottom li {
 	display: inline;
@@ -184,4 +186,49 @@ menu {
 }
 .nav-bottom li:last-child:after {
 	margin-right: 0;
+}
+
+##### page contents #####
+
+.page-content {
+	width: 100%;
+}
+.left-side {
+	background: gray;
+	width: 20%;
+	float: left;
+}
+.middle-side {
+	background: yellow;
+	width: 40%;
+	float: left;
+}
+.right-side {
+	width: 40%;
+	height: 500px;
+	float: left;
+}
+.right-top {
+	float: left;
+}
+.right-top-content {
+	width: 50%;
+	background: blue;
+	float: left;
+}
+.right-scroll {
+	overflow: scroll;
+	height: 300px;
+	float: left;
+	clear: both;
+}
+
+.right-scroll-content {
+	background: green;
+}
+.bottom-left-wide {
+	background: brown;
+	width: 60%;
+	float: left;
+	clear: both;
 }
